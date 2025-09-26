@@ -2,7 +2,7 @@ pipeline {
 /* -- Set the agent on which the build should execute -- */
     agent any
     stages {
-        stage('Checkout Code') {
+        stage("Checkout Code") {
             steps {
                  git 'https://github.com/vigkre/validation-report-automation'   
             }            
@@ -17,6 +17,7 @@ pipeline {
         }
     }
 }
+
 
 
 
