@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Checkout Code") {
             steps {
-                 git 'https://github.com/vigkre/validation-report-automation'   
+                 git "https://github.com/vigkre/validation-report-automation"
             }            
         }
         stage('Run Python Script') {
@@ -17,6 +17,7 @@ pipeline {
         }
     }
 }
+
 
 
 
