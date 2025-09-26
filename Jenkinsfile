@@ -9,10 +9,11 @@ pipeline {
         }
         stage('Run Python Script') {
             script {
-                def pythonCommand = 'python scripts\\generate_chart.py'
+                def pythonCommand = 'python scripts\\test_script.py'
                 bat pythonCommand
             }
         }
     }
 }
+
 
