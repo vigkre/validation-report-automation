@@ -1,5 +1,0 @@
-dotenv
-faiss-cpu
-ipykernel
-mysql-connector-python
-openai
